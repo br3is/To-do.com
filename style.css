@@ -1,0 +1,93 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+#title{
+    font-family: 'Righteous', cursive;
+    font-size: 48px;
+    margin-left: 10px;
+    color: #3b3b3b;
+}
+#subTitle{
+    margin-left: 10px;
+    transform: translateY(-30px);
+    color: #3b3b3b;
+}
+img{
+    transform: translateY(-20px);
+}
+.centralizadorContainer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #3b3b3b;
+}
+#container{
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    background-color: #3669eb;
+    border-radius: 15px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#tarefaForm{
+    width: 60%;
+    height: 20px;
+    border: 0;
+    display: block;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 20px auto;   
+}
+#button{
+    width: 20%;
+    height: 40px;
+    display: block;
+    border: 0;
+    border-radius: 30px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #363636;
+    color: white;
+    cursor: pointer;
+    margin: 10px auto;
+}
+#button:hover{
+    background-color: #1f1f1f;
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+li{
+    list-style: none;
+    background-color: #de4e83;
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+#box{
+    float: right;
+    margin-right: 10px;
+    border: none;
+}
+#delete{
+    background-image: url(./assets/lixeira.png);
+    background-repeat: no-repeat;
+    background-color: #de4e83;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    transform: translateY(-2px);
+    outline: none;
+    border: none;
+}
+#delete:hover{
+    background-image:url(./assets/lixeirahover.png);
+}

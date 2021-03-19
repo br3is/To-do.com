@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <title>To-do.com</title>
+</head>
+<body class="centralizadorContainer">
+    <header>
+        <div>
+            <h1 id="title">To-do.com</h1>
+            <p id="subTitle">Solução inteligente para suas tarefas diárias</p>
+            <img src="./assets/imgbanner.jpg" alt="Imagem do site" width="250px">
+        </div>
+    </header>
+    <section>
+        <div>
+            <h2>Adicione as tarefas a serem realizadas hoje e as acompanhe através do board.</h2>
+        </div>
+        <div id="container">
+            <h2>Qual sua tarefa?</h2>
+            <input type="text" name="tarefa" id="tarefaForm" placeholder="Digite aqui" maxlength="34">
+            <button name="submit" id="button" onclick="action()">Salvar</button>
+            <ul>
+            </ul>
+        </div>
+    </section>
+    <footer id="rodape">
+        <p>&copy; Desenvolvido por br3is.</p></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
