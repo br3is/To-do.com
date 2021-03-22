@@ -2,7 +2,7 @@ let elementoLista = document.querySelector('ul')
 let elementoInput = document.querySelector('input#tarefaForm')
 let elementoBotao = document.querySelector('button#button')
 
-let tarefasArray = JSON.parse(localStorage.getItem('list_tarefas')) || []
+let tarefasArray = JSON.parse(localStorage.getItem('list_tarefas'))
 
 function mostrarTarefas(){
     elementoLista.innerHTML = ''
